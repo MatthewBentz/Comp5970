@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Assignment1c_mlb0119" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_Image" translatesAutoresizingMaskIntoConstraints="NO" id="m6i-Zt-IsC" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hwy-mx-qpV" userLabel="Logo View">
+                                <rect key="frame" x="57" y="50" width="300" height="300"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alabama_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="dNu-Ms-Ihb" userLabel="Alabama_Image">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="6UA-CN-LqJ"/>
+                                            <constraint firstAttribute="width" constant="300" id="YtJ-LJ-fkO"/>
+                                        </constraints>
+                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Auburn_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="E1o-J9-ftY" userLabel="Auburn_Image">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="TOz-Y2-ncu"/>
+                                            <constraint firstAttribute="width" constant="300" id="Vr1-Nk-iqs"/>
+                                        </constraints>
+                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dNu-Ms-Ihb" firstAttribute="bottom" secondItem="Hwy-mx-qpV" secondAttribute="bottom" id="0Aa-LR-ZfP"/>
+                                    <constraint firstItem="dNu-Ms-Ihb" firstAttribute="centerX" secondItem="Hwy-mx-qpV" secondAttribute="centerX" id="0v3-xk-Plz"/>
+                                    <constraint firstItem="dNu-Ms-Ihb" firstAttribute="top" secondItem="Hwy-mx-qpV" secondAttribute="top" id="2Q3-Ai-Qy1"/>
+                                    <constraint firstItem="E1o-J9-ftY" firstAttribute="trailing" secondItem="Hwy-mx-qpV" secondAttribute="trailing" id="KP5-NY-2ur"/>
+                                    <constraint firstItem="dNu-Ms-Ihb" firstAttribute="leading" secondItem="Hwy-mx-qpV" secondAttribute="leading" id="Rs0-Dm-FEw"/>
+                                    <constraint firstItem="E1o-J9-ftY" firstAttribute="top" secondItem="Hwy-mx-qpV" secondAttribute="top" id="SWR-av-7me"/>
+                                    <constraint firstItem="E1o-J9-ftY" firstAttribute="bottom" secondItem="Hwy-mx-qpV" secondAttribute="bottom" id="cuA-7t-NrI"/>
+                                    <constraint firstItem="dNu-Ms-Ihb" firstAttribute="trailing" secondItem="Hwy-mx-qpV" secondAttribute="trailing" id="me7-Ia-nGc"/>
+                                    <constraint firstItem="E1o-J9-ftY" firstAttribute="leading" secondItem="Hwy-mx-qpV" secondAttribute="leading" id="p0c-LC-8hi"/>
+                                    <constraint firstItem="E1o-J9-ftY" firstAttribute="centerX" secondItem="Hwy-mx-qpV" secondAttribute="centerX" id="puW-KL-syX"/>
+                                </constraints>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vpf-F1-dqr" userLabel="Slider">
+                                <rect key="frame" x="100" y="509" width="214" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="210" id="VpY-aZ-AAd"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="onSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="UKi-q1-09O"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o72-tv-BDe">
+                                <rect key="frame" x="53" y="506" width="41" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJJ-0d-tGh">
+                                <rect key="frame" x="320" y="506" width="41" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fJJ-0d-tGh" firstAttribute="centerY" secondItem="o72-tv-BDe" secondAttribute="centerY" id="Csq-Zg-zXJ"/>
+                            <constraint firstItem="o72-tv-BDe" firstAttribute="centerY" secondItem="Vpf-F1-dqr" secondAttribute="centerY" id="DL6-ym-lNQ"/>
+                            <constraint firstItem="Hwy-mx-qpV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="E1f-Vz-5wd"/>
+                            <constraint firstItem="m6i-Zt-IsC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GWh-O1-8wc"/>
+                            <constraint firstItem="m6i-Zt-IsC" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="PFn-X1-a3u"/>
+                            <constraint firstItem="Vpf-F1-dqr" firstAttribute="top" secondItem="Hwy-mx-qpV" secondAttribute="bottom" constant="159" id="S10-jB-KUR"/>
+                            <constraint firstItem="m6i-Zt-IsC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="W2u-w7-Nn5"/>
+                            <constraint firstItem="fJJ-0d-tGh" firstAttribute="leading" secondItem="Vpf-F1-dqr" secondAttribute="trailing" constant="8" id="bpK-4f-ghK"/>
+                            <constraint firstItem="Vpf-F1-dqr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e6L-6X-s2M"/>
+                            <constraint firstItem="o72-tv-BDe" firstAttribute="trailing" secondItem="Vpf-F1-dqr" secondAttribute="leading" constant="-8" id="mL0-7L-7jg"/>
+                            <constraint firstItem="Hwy-mx-qpV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wLc-rQ-e2D"/>
+                            <constraint firstItem="m6i-Zt-IsC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wPu-3h-yJ6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Alabama_Image" destination="dNu-Ms-Ihb" id="ayu-DJ-aV5"/>
+                        <outlet property="Auburn_Image" destination="E1o-J9-ftY" id="Jlm-Xp-P09"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="116.57608695652175"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alabama_Logo" width="200" height="200"/>
+        <image name="Auburn_Logo" width="1153" height="900"/>
+        <image name="Background_Image" width="1024" height="1024"/>
+    </resources>
+</document>
