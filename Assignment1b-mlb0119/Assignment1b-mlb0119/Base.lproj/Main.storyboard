@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Assignment1b_mlb0119" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_Image" translatesAutoresizingMaskIntoConstraints="NO" id="m6i-Zt-IsC" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="weF-9Y-6tr" userLabel="Button Stack View">
+                                <rect key="frame" x="142" y="400" width="130" height="286"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5z4-sG-Mah" userLabel="War Eagle Button">
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="68.666666666666671"/>
+                                        <color key="backgroundColor" red="0.20392156862745098" green="0.16862745098039217" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="War Eagle">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oq9-U9-PlC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1JC-Sl-tLd" userLabel="SEC Button">
+                                        <rect key="frame" x="0.0" y="108.66666666666669" width="130" height="68.666666666666686"/>
+                                        <color key="backgroundColor" red="0.20392156862745098" green="0.16862745098039217" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="SEC">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xou-e6-7rl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="944-tZ-EE0" userLabel="Roll Tide Button">
+                                        <rect key="frame" x="0.0" y="217.33333333333337" width="130" height="68.666666666666686"/>
+                                        <color key="backgroundColor" red="0.20392156859999999" green="0.16862745100000001" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Roll Tide">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SM2-zf-1T2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hwy-mx-qpV" userLabel="Logo View">
+                                <rect key="frame" x="57" y="50" width="300" height="300"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SEC_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="dNu-Ms-Ihb" userLabel="Logo_Image">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="6UA-CN-LqJ"/>
+                                            <constraint firstAttribute="width" constant="300" id="YtJ-LJ-fkO"/>
+                                        </constraints>
+                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dNu-Ms-Ihb" firstAttribute="bottom" secondItem="Hwy-mx-qpV" secondAttribute="bottom" id="0Aa-LR-ZfP"/>
+                                    <constraint firstItem="dNu-Ms-Ihb" firstAttribute="centerX" secondItem="Hwy-mx-qpV" secondAttribute="centerX" id="0v3-xk-Plz"/>
+                                    <constraint firstItem="dNu-Ms-Ihb" firstAttribute="top" secondItem="Hwy-mx-qpV" secondAttribute="top" id="2Q3-Ai-Qy1"/>
+                                    <constraint firstItem="dNu-Ms-Ihb" firstAttribute="leading" secondItem="Hwy-mx-qpV" secondAttribute="leading" id="Rs0-Dm-FEw"/>
+                                    <constraint firstItem="dNu-Ms-Ihb" firstAttribute="trailing" secondItem="Hwy-mx-qpV" secondAttribute="trailing" id="me7-Ia-nGc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Hwy-mx-qpV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="E1f-Vz-5wd"/>
+                            <constraint firstItem="m6i-Zt-IsC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GWh-O1-8wc"/>
+                            <constraint firstItem="weF-9Y-6tr" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-50" id="GsV-9e-wIy"/>
+                            <constraint firstItem="m6i-Zt-IsC" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="PFn-X1-a3u"/>
+                            <constraint firstItem="m6i-Zt-IsC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="W2u-w7-Nn5"/>
+                            <constraint firstItem="weF-9Y-6tr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uI2-M4-rEl"/>
+                            <constraint firstItem="Hwy-mx-qpV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wLc-rQ-e2D"/>
+                            <constraint firstItem="m6i-Zt-IsC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wPu-3h-yJ6"/>
+                            <constraint firstItem="weF-9Y-6tr" firstAttribute="top" secondItem="Hwy-mx-qpV" secondAttribute="bottom" constant="50" id="zhI-t8-B6c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Logo" destination="dNu-Ms-Ihb" id="p3L-nV-fQm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="116.57608695652175"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background_Image" width="1024" height="1024"/>
+        <image name="SEC_Logo" width="2000" height="2000"/>
+    </resources>
+</document>
