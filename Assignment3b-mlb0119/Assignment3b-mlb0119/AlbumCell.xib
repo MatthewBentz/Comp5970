@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CellTableIdentifier" rowHeight="65" id="Il9-PB-FqB" customClass="AlbumCell" customModule="Assignment3b_mlb0119">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Il9-PB-FqB" id="8lf-mv-Asd">
+                <rect key="frame" x="0.0" y="0.0" width="383" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msl-Ud-lAc">
+                        <rect key="frame" x="20" y="37" width="355" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Album Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMP-fl-nlG">
+                        <rect key="frame" x="20" y="10" width="355" height="24"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Msl-Ud-lAc" secondAttribute="bottom" constant="-1" id="1bO-bc-OP8"/>
+                    <constraint firstItem="zMP-fl-nlG" firstAttribute="top" secondItem="8lf-mv-Asd" secondAttribute="top" constant="10" id="8F5-rm-7az"/>
+                    <constraint firstItem="Msl-Ud-lAc" firstAttribute="trailing" secondItem="8lf-mv-Asd" secondAttribute="trailingMargin" id="A45-9t-qaJ"/>
+                    <constraint firstItem="Msl-Ud-lAc" firstAttribute="trailing" secondItem="zMP-fl-nlG" secondAttribute="trailing" id="Cfs-Cd-k39"/>
+                    <constraint firstItem="zMP-fl-nlG" firstAttribute="leading" secondItem="8lf-mv-Asd" secondAttribute="leading" constant="20" id="D0z-oJ-iAX"/>
+                    <constraint firstItem="Msl-Ud-lAc" firstAttribute="leading" secondItem="zMP-fl-nlG" secondAttribute="leading" id="LBG-rb-SHR"/>
+                    <constraint firstItem="Msl-Ud-lAc" firstAttribute="top" secondItem="zMP-fl-nlG" secondAttribute="bottom" constant="3" id="UkW-9J-nhW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="artistLabel" destination="Msl-Ud-lAc" id="qyz-q5-RAi"/>
+                <outlet property="titleLabel" destination="zMP-fl-nlG" id="o53-Vf-gR1"/>
+            </connections>
+            <point key="canvasLocation" x="-39.130434782608695" y="87.388392857142847"/>
+        </tableViewCell>
+    </objects>
+</document>

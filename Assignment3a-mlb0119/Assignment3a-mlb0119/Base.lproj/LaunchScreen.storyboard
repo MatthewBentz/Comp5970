@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_Image" translatesAutoresizingMaskIntoConstraints="NO" id="28h-w2-TCo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="k9L-gJ-ryy">
+                                <rect key="frame" x="47" y="316" width="320" height="104"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Matthew Bentz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGG-U3-emS">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mlb0119@auburn.edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3g-dM-JGV">
+                                        <rect key="frame" x="17.666666666666686" y="68" width="285" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Auburn_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="rTc-GN-UUq">
+                                <rect key="frame" x="107" y="108" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="gPs-bz-hQ6"/>
+                                    <constraint firstAttribute="width" constant="200" id="xqj-hH-6Qj"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rTc-GN-UUq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1xp-6U-ewS"/>
+                            <constraint firstAttribute="bottom" secondItem="28h-w2-TCo" secondAttribute="bottom" id="Ndd-QI-OmY"/>
+                            <constraint firstItem="k9L-gJ-ryy" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="aQp-R7-MTK"/>
+                            <constraint firstItem="28h-w2-TCo" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="bgb-pf-Esz"/>
+                            <constraint firstItem="28h-w2-TCo" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="egO-H4-aQJ"/>
+                            <constraint firstItem="28h-w2-TCo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="fcm-rF-eOP"/>
+                            <constraint firstItem="wGG-U3-emS" firstAttribute="top" secondItem="rTc-GN-UUq" secondAttribute="bottom" constant="8" id="uDR-hl-M2k"/>
+                            <constraint firstItem="k9L-gJ-ryy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vDb-mS-ipJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Auburn_Logo" width="1153" height="900"/>
+        <image name="Background_Image" width="1024" height="1024"/>
+    </resources>
+</document>
