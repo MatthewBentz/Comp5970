@@ -6,4 +6,4 @@ Constraints mainly tested on iPhone models.
 
 ** Some projects may be compiled and ran on a hackintosh **
 
-![alt text](https://github.com/MatthewBentz/Comp5970/blob/Assignment1a-mlb0119/Assignment1a-mlb0119/Assets.xcassets/AppIcon.appiconset/180.png/180.png?raw=true)
+![alt text](https://github.com/MatthewBentz/Comp5970/blob/master/Assignment1a-mlb0119/Assignment1a-mlb0119/Assets.xcassets/AppIcon.appiconset/180.png)
