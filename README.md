@@ -9,7 +9,7 @@ Constraints mainly tested on iPhone models.
 ![App Icon](https://github.com/MatthewBentz/Comp5970/blob/master/Assignment1a-mlb0119/Assignment1a-mlb0119/Assets.xcassets/AppIcon.appiconset/180.png)
 
 ```
-    Total Views per Day from 2022-09-03 to 2022-09-22
+    Total Views per Day from 2022-09-03 to 2022-09-23
 
     Repository Views
    25.00  ┼    ╭╮
@@ -27,9 +27,9 @@ Constraints mainly tested on iPhone models.
     5.00  ┤    ││     ││
     3.33  ┤    ││     ││╭─╮
     1.67  ┼╮  ╭╯│    ╭╯││ ╰╮
-    0.00  ┤╰──╯ ╰────╯ ╰╯  ╰──
+    0.00  ┤╰──╯ ╰────╯ ╰╯  ╰───
 
-    Chart last updated - Thu Sep 22 00:47:39 2022 UTC
+    Chart last updated - Fri Sep 23 00:54:08 2022 UTC
     
 ```
 
