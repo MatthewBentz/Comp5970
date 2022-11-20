@@ -9,7 +9,7 @@ Constraints mainly tested on iPhone models.
 ![App Icon](https://github.com/MatthewBentz/Comp5970/blob/master/Assignment1a-mlb0119/Assignment1a-mlb0119/Assets.xcassets/AppIcon.appiconset/180.png)
 
 ```
-    Total Views per Day from 2022-09-03 to 2022-11-19
+    Total Views per Day from 2022-09-03 to 2022-11-20
 
     Repository Views
    41.00  ┼                                                 ╭╮
@@ -19,17 +19,17 @@ Constraints mainly tested on iPhone models.
    30.07  ┤                                                 ││
    27.33  ┤                                                 ││
    24.60  ┤    ╭╮                                           ││                  ╭╮
-   21.87  ┤    ││     ╭╮                                   ╭╯│                  ││
-   19.13  ┤    ││     ││                                   │ │                  ││
-   16.40  ┤    ││     ││                                   │ │                  ││
-   13.67  ┤    ││     ││                                   │ │                  ││
-   10.93  ┤    ││     ││                                   │ │                  ││
-    8.20  ┤    ││     ││                                   │ │                  ││
-    5.47  ┤    ││     ││                                   │ │                  ││
-    2.73  ┤   ╭╯│     ││╭─╮                             ╭╮ │ │     ╭╮        ╭╮ │╰╮
-    0.00  ┼───╯ ╰─────╯╰╯ ╰─────────────────────────────╯╰─╯ ╰─────╯╰────────╯╰─╯ ╰─────
+   21.87  ┤    ││     ╭╮                                   ╭╯│                  ││     ╭╮
+   19.13  ┤    ││     ││                                   │ │                  ││     ││
+   16.40  ┤    ││     ││                                   │ │                  ││     ││
+   13.67  ┤    ││     ││                                   │ │                  ││     ││
+   10.93  ┤    ││     ││                                   │ │                  ││     ││
+    8.20  ┤    ││     ││                                   │ │                  ││     ││
+    5.47  ┤    ││     ││                                   │ │                  ││     ││
+    2.73  ┤   ╭╯│     ││╭─╮                             ╭╮ │ │     ╭╮        ╭╮ │╰╮    ││
+    0.00  ┼───╯ ╰─────╯╰╯ ╰─────────────────────────────╯╰─╯ ╰─────╯╰────────╯╰─╯ ╰────╯╰
 
-    Chart last updated - Sat Nov 19 00:43:29 2022 UTC
+    Chart last updated - Sun Nov 20 00:48:37 2022 UTC
     
 ```
 
