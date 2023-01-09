@@ -9,27 +9,27 @@ Constraints mainly tested on iPhone models.
 ![App Icon](https://github.com/MatthewBentz/Comp5970/blob/master/Assignment1a-mlb0119/Assignment1a-mlb0119/Assets.xcassets/AppIcon.appiconset/180.png)
 
 ```
-        Total Views per Day from 2022-10-11 to 2023-01-08
+        Total Views per Day from 2022-10-12 to 2023-01-09
 
         Repository Views
-      41 ┼           ╭╮
-      38 ┤           ││
-      36 ┤           ││
-      33 ┤           ││
-      30 ┤           ││
-      27 ┤           ││
-      25 ┤           ││                  ╭╮
-      22 ┤          ╭╯│                  ││     ╭╮
-      19 ┤          │ │                  ││     ││
-      16 ┤          │ │                  ││     ││
-      14 ┤          │ │                  ││     ││
-      11 ┤          │ │                  ││     ││
-       8 ┤          │ │                  ││     ││
-       5 ┤          │ │                  ││     ││
-       3 ┤       ╭╮ │ │     ╭╮        ╭╮ │╰╮    ││               ╭─╮                 ╭╮
-       0 ┼───────╯╰─╯ ╰─────╯╰────────╯╰─╯ ╰────╯╰───────────────╯ ╰─────────────────╯╰────────────
+      41 ┼          ╭╮
+      38 ┤          ││
+      36 ┤          ││
+      33 ┤          ││
+      30 ┤          ││
+      27 ┤          ││
+      25 ┤          ││                  ╭╮
+      22 ┤         ╭╯│                  ││     ╭╮
+      19 ┤         │ │                  ││     ││
+      16 ┤         │ │                  ││     ││
+      14 ┤         │ │                  ││     ││
+      11 ┤         │ │                  ││     ││
+       8 ┤         │ │                  ││     ││
+       5 ┤         │ │                  ││     ││
+       3 ┤      ╭╮ │ │     ╭╮        ╭╮ │╰╮    ││               ╭─╮                 ╭╮
+       0 ┼──────╯╰─╯ ╰─────╯╰────────╯╰─╯ ╰────╯╰───────────────╯ ╰─────────────────╯╰─────────────
 
-        Chart last updated - Sun Jan  8 00:38:45 2023 UTC
+        Chart last updated - Mon Jan  9 00:36:17 2023 UTC
         
 ```
 
